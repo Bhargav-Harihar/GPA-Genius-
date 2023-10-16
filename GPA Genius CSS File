@@ -1,0 +1,93 @@
+/* CSS File */ 
+
+/* Set the height and width of the entire HTML document to 100% #SM# */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Style the overall look and feel of the webpage body #SM# */
+body {
+    background-color: #f2f2f2; /* Background color */
+    font-family: Arial, sans-serif; /* Font style */
+    padding: 20px; /* Add padding to the body */
+}
+
+/* Style for the main heading #SM# */
+h1 {
+    color: #333333; /* Text color */
+    text-align: center; /* Center align the text */
+    margin-bottom: 30px; /* Add margin at the bottom of the heading */
+}
+
+/* Style for forms on the page  #BH# */
+form {
+    margin-bottom: 20px; /* Add margin at the bottom of forms */
+}
+
+/* Style for labels within forms #BH# */
+label {
+    font-weight: bold; /* Make labels bold */
+    margin-right: 10px; /* Add margin to the right of labels */
+}
+
+/* Style for text and number input fields #BH# */
+input[type="text"],
+input[type="number"] {
+    padding: 5px; /* Add padding */
+    border-radius: 5px; /* Rounded border */
+    border: 1px solid #cccccc; /* Border style */
+}
+
+/* Style for buttons #AN# */
+button {
+    padding: 10px 20px; /* Padding for buttons */
+    background-color: #333333; /* Background color for buttons */
+    color: #ffffff; /* Text color for buttons */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style for the course table  #AN# */
+#courseTable {
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Set table width to 100% of its container */
+}
+
+/* Style for table header cells #AN# */
+#courseTable th {
+    background-color: #333333; /* Header background color */
+    color: #ffffff; /* Header text color */
+    padding: 10px; /* Padding for header cells */
+    text-align: left; /* Left-align header text */
+}
+
+/* Style for table data cells #AN# */
+#courseTable td {
+    border: 1px solid #cccccc; /* Border for data cells */
+    padding: 10px; /* Padding for data cells */
+}
+
+/* Style for the 'Finish' button  #AN# */
+#finishButton {
+    margin-top: 20px; /* Margin added at the top of the button */
+}
+
+/* Style for a list of weighted GPAs  #BH# */
+#weightedGPAs {
+    list-style-type: none; /* Remove list bullet points */
+    margin: 0; /* Remove margin for the list */
+    padding: 0; /* Remove padding for the list */
+}
+
+/* Style for individual items in the weighted GPA list #BH# */
+#weightedGPAs li {
+    margin-bottom: 10px; /* Margin added at the bottom of list items */
+}
+
+/* Style for the average GPA paragraph #SM# */
+#averageGPA {
+    font-weight: bold; /* Make the text bold */
+    font-size: 30px; /* Set the font size to 30px */
+}
